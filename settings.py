@@ -15,13 +15,13 @@ elif chosen_resolution.upper() == "B":
     resolution_width = 1792
     resolution_height = 1008
 elif chosen_resolution.upper() == "C":
-    resolution_width = 3840
-    resolution_height = 2160
+    resolution_width = 3712
+    resolution_height = 2088
 else:
     print("Resolution not selected. Please restart")
 
-resolution_width = 1152
-resolution_height = 648
+# resolution_width = 1152
+# resolution_height = 648
 
 
 class Settings:
